@@ -3,7 +3,7 @@ var http = require('http');
 //create a server object:
 http.createServer(function (req, res) {
   res.write('Cloud Infrastructure and Virtualization oerformed by Craig and Joao.testing'); //write a response to the client
-  p Welcome to the #{title} Application:
+  p Welcome to the Application:
   p 1. Create EC2 Instance (Ubuntu image)
   p 2. Install and configure Jenkins on Ubuntu
   p 3. Install node and npm
